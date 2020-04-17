@@ -1,0 +1,66 @@
+body {
+background-image: url("images/cloud.jpg");
+overflow: hidden;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height:100vh;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family:Didact Gothic , sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 5vh;
+
+}
+header {
+  background-image: url(images/liverbird.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+  opacity: 0.6;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-family:Didact Gothic , sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 2vh;
+
+}
+form {
+    font-size:0.85rem;
+    outline: none;
+    font-size:1.5rem;
+    cursor: pointer;
+    padding-left: 50%;
+    padding-right:50%;
+
+
+
+
+
+  }
+  input{
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) {
+    body {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (min-width: 50em) {
+    header {
+      height: 500px;
+    }
