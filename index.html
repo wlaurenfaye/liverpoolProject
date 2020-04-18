@@ -5,42 +5,47 @@
 
 
 
+
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
   <title> Liverpool Online Tour Guide </title>
 </head>
 
 
 <body>
-  <header></header>
-  <div>
-  <h1> Welcome To Liverpool </h1>
-  <h2> Please confirm your age: </h2>
-
-
+  <div id="formContainer">
+    <div id="test">
+      <form name="dobForm" id=ageForm >
+      <table>
+          <h1> Welcome To Liverpool </h1>
+          <h2> Please confirm your age: </h2>
+          <tr>
+            <input type="number" name="ageInput" id="ageInput" placeholder="Age" maxlength"3"> </input>
+          </tr>
+        <input id="btnSubmit"  value="Submit"> </input>
+      </table>
+    </form>
   </div>
-  <form name="dobForm" onsubmit="validateForm();"  method="post">
-    <table>
-      <tr>
-        <input type="number" name="ageInput" id="ageInput" placeholder="Age" maxlength"3"> </input>
-      </tr>
-
-    <input type="submit" value="Submit">
-  </table>
-  </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+<div class="imgContainer">
+  <a href="history.html">
+    <img src="images/hall.jpg">
+  </a>
+  <a href="eat.html">
+    <img src="images/food.jpg">
+  </a>
+  <a href="art.html">
+    <img src="images/art.jpg">
+  </a>
+  <a href="bars.html">
+    <img src="images/music.jpg">
+  </a>
+  <a href="shop.html">
+    <img src="images/shop.jpg">
+  </a>
+  <a href="relax.html">
+    <img src="images/relax1.jpg">
+  </a>
+</div>
 
 
 
@@ -50,5 +55,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="liverpoolGuide.js"></script>
 </body>
-  <script src="liverpoolGuide.js"></script>
