@@ -8,23 +8,14 @@ background-image: url("images/map.jpg");
   justify-content: center;
   align-items: center;
   margin: 0;
-
-
 }
 
 
 .wrapper {
   display: grid;
  grid-template-columns: 1fr 2fr 1fr;
-/*
-  grid-template-columns: repeat (3, 1fr 2fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  */
   grid-gap: 1em;
   grid-auto-rows: minmax (100px, auto);
-
-
 }
 
 .wrapper > div {
@@ -33,9 +24,8 @@ background-image: url("images/map.jpg");
   display: inline-table;
   width: auto;
   z-index: 1;
-
-
 }
+
 .wrapper > div p {
   text-align: center;
   color: black;
@@ -54,7 +44,6 @@ background-image: url("images/map.jpg");
   color: black;
 }
 
-
 .nestedTitle {
   background-color: #333;
   font-size: 50px;
@@ -64,7 +53,6 @@ background-image: url("images/map.jpg");
 }
 
 .nested > div {
-
   font-size: 20px;
   color: white;
   position: contain;
@@ -78,6 +66,7 @@ background-image: url("images/map.jpg");
   display: table;
   z-index: 1;
 }
+
 .wrapper > div:nth-child(odd) p {
   text-align: center;
   color: white;
@@ -87,17 +76,11 @@ background-image: url("images/map.jpg");
   text-shadow: 3px, #333;
 }
 
-
-
-
-
-
 #HISTORY {
   width: 100%;
   height: 100vh;
   display: table;
   overflow-y: scroll;
-
 }
 
 
@@ -112,12 +95,10 @@ display: inline-flex;
 position: cover;
 z-index: 3;
 }
+
 div > img:hover {
 width: 600px;
 height: 800px:
-
-
-
 }
 
 #navBar {
@@ -137,7 +118,7 @@ margin-top: 0px;
 }
 
 
-#navBar a /*subtitles*/ {
+#navBar a {
   text-align: center;
   font-size: 30px;
   font-family: Didact Gothic , sans-serif;
@@ -148,6 +129,7 @@ margin-top: 0px;
   margin-right:100px;
   text-decoration: none;
 }
+
 a {
   text-decoration: none;
   color: #901;

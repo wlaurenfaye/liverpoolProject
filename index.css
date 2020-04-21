@@ -7,9 +7,6 @@ background-size: cover;
 min-height:100vh;
 justify-content: center;
 align-items: center;
-
-
-
 }
 
 h1 {
@@ -21,12 +18,9 @@ h1 {
   font-size: 5vh;
   text-shadow: 3px, #333;
   padding-top:20%;
-
-
-
 }
-form {
 
+form {
   text-align: center;
   position: absolute;
   display: flow-root;
@@ -37,14 +31,15 @@ background:#901;
 width: 100%;
 height: 100%;
 opacity: 0.85;
-display: absolute; /* HERE */
+display: absolute;
 position: absolute;
 z-index: 50;
 }
+
 placeholder {
   text-align:center;
-
 }
+
 h2 {
   text-align: center;
   color: black;
@@ -53,14 +48,11 @@ h2 {
   letter-spacing: 5px;
   font-size: 3vh;
   text-shadow: 3px, #333;
-
-
-
-
 }
-#test {
-  padding-top: 15%;
-  padding-left: 30%;
+
+  #test {
+    padding-top: 15%;
+    padding-left: 30%;
 }
 
   input{
@@ -71,38 +63,31 @@ h2 {
     body {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
-
   }
+
   @media screen and (min-width: 800px) {
     imgContainer {
       width: 100%;
     }
   }
 
-
-  #ageForm {
-
-  }
 .imgContainer {
-
   display: inline-grid;
   grid-template-columns: 10fr 10fr 0fr;
   grid-gap: 35em;
   position: relative;
   padding-left: 5%;
-
 }
+
 .imgContainer img {
   width: 40vh;
   position: absolute;
   border-radius: 8%;
-
 }
+
 .imgContainer a {
   text-decoration: none;
   text-align: center;
   color: white;
   font-family: Didact Gothic , sans-serif;
-
-
 }
